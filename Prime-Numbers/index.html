@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prime Numbers</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+ <button id="btn" class="btn btn-dark">click </button>
+ <center><button id="hide" class="btn btn-warning">HIDE</button></center><br>
+ <center><button id="calculate" class="btn btn-warning" onclick="hulo()">CALCULATE</button></center><br>
+ <center><div id="main">
+<input  id ="text" type="text" value="">
+
+ </div></center>
+ <div id="container"></div>
+ <script>
+     $('#main').hide()
+     $('#hide').hide()
+     $('#calculate').hide()
+     $('#hide').click(function (){
+         $('#main').slideUp(2000)
+         $('#hide').hide()
+         $('#btn').show()
+        
+         
+     })
+ $('#btn').click(function(){
+     $('#btn').hide()
+     $('#main').slideDown(2000)
+     $('#hide').show()
+     $('#calculate').show()
+
+})
+function hulo() {
+         var box = $('#text').val();
+         // var mulo = Math.floor(Math.random());
+         var i, flag = true;
+         //alert(box)
+         for (i=2; i <= box - 1; i++) 
+         	if (box % i == 0){
+         		flag = false;
+         		break;
+         	}
+        
+
+         if (flag == true)
+         	return document.getElementById('container').innerHTML = box + 'is prime';
+         else
+             return document.getElementById('container').innerHTML = box + 'is not prime';
+         
+}
+
+
+
+</script>
+</body>
+</html>

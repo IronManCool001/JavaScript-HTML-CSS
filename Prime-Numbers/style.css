@@ -1,0 +1,17 @@
+body{
+    background: url(download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#btn{
+    margin: 500px;
+    padding: 20px;
+}
+
+#container{
+    color: darkgreen;
+    text-align: center;
+    margin: 60px;
+    background-image: url(images.jfif);
+}
