@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family:Open-Sans;
+}
+
+.button{
+   color:red;
+   border-radius: 50%;
+   height: auto;
+   width: 50px;
+}
+
+.box{
+  width: 300px;
+  border: 15px solid black;
+  border-radius: 16px;
+  padding: 50px;
+  margin: 20px;
+  background: black;
+}
+
+.fn1{
+  color:red;
+}
+
+.fn2{
+  color: red;
+}
+
+#res{
+  color: white;
+}
+
+hr{
+  border: 1.5px solid white;
+  border-radius: 12px;
+}
+
+#t1 {
+  border-radius: 12px;
+  width: 200px;
+}
+
+#t2{
+  border-radius: 12px;
+  width :  200px;
+}

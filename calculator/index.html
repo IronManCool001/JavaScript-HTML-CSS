@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="icon/png" href="calc.ico">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <center>
+        <div class="box">
+        <h2 id="res"></h2>
+        <h1 class="fn1">First Number:</h1>
+        <input type="text" id="t1"><br>
+        <h1 class="fn2">Second Number:</h1>
+        <input type="text" id="t2"><br><br>
+        <button type="button" onclick="add()"class="button" ><h2>+</h2></button>
+        <button type="button" onclick="substract()" class="button"><h2>-</h2></button>
+        <button type="button" onclick="multiply()" class="button"><h2>*</h2></button>
+        <button type="button" onclick="divide()" class="button"><h2>/</h2></button>
+        <script type="text/javascript">
+         function add(){
+            var x = parseInt(document.getElementById('t1').value);
+            var y = parseInt(document.getElementById('t2').value);
+            document.getElementById('res').innerHTML=x+y;
+
+        }
+
+        function substract(){
+            var r = parseInt(document.getElementById('t1').value);
+            var t = parseInt(document.getElementById('t2').value);
+            document.getElementById('res').innerHTML=r-t;
+        }
+
+        function multiply(){
+            var p = parseInt(document.getElementById('t1').value);
+            var q = parseInt(document.getElementById('t2').value);
+            document.getElementById('res').innerHTML=p*q;
+        }
+        function divide(){
+            var a = parseInt(document.getElementById('t1').value);
+            var b = parseInt(document.getElementById('t2').value);
+            document.getElementById('res').innerHTML=a/b; 
+        }
+        </script><br><br><br>
+        <hr>
+        </div>
+        </center>
+    </body>
+</html>
