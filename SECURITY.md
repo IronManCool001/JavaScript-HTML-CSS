@@ -8,7 +8,7 @@ currently being supported with security updates.
 | Version   | Supported          |
 | -------   | ------------------ |
 | 3.0.0     | CSS
-| 5.0.0     | HTM;                |
+| 5.0.0     | HTML               |
 | N/A       | Js |
 | 12.0.0+   | Node.js                |
 
