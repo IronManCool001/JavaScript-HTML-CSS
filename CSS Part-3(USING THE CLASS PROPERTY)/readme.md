@@ -4,6 +4,7 @@ Syntax:
 <html tag class="class_name">Text</html tag>
 
 CSS FILE:
+
 .class_name {
  property: value;
 }
