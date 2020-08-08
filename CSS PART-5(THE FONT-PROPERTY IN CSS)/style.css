@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#text1{
+    font-size: 45px;
+    color: red;
+}
+
+#text2{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+#text3{
+    font-size: 40px;
+    color: blue;
+    background-color: seagreen;
+    margin : auto;
+    border: 12px solid black;
+}
