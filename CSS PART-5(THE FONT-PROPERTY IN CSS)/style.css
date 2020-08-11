@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 .text{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* This applies the font open-sans italic to every text grouped under the text class */
 }
 
 #text1{
@@ -11,7 +11,8 @@
 
 #text2{
     font-size: 30px;
-    font-weight: 1000;
+    font-weight: bold;
+    color: black;
 }
 
 #text3{
@@ -19,5 +20,10 @@
     color: blue;
     background-color: seagreen;
     margin : auto;
-    border: 12px solid black;
+    border: 16px solid black;
+    border-radius: 16px;;
+}
+
+input[type=text] {
+    border-radius: 12px;
 }
