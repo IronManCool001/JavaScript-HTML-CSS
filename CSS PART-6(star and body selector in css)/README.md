@@ -2,4 +2,4 @@ This is how we can use * and body apply effects to all the elements of the websi
 Though you can change the element effect by covering the element in a class.
 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pankaj-Dev-Hacker/JavaScript-HTML-CSS)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Pankaj-Dev-Hacker/JavaScript-HTML-CSS/CSS%20PART-6(star%20and%20body%20selector%20in%20css))
