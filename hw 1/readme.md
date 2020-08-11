@@ -6,3 +6,5 @@ You may modify according to your need.
 It will be good if you know JavaScript and make your usable.
 
 But I want to you to implement the styling that I taught you
+
+  Mail me your project: technicalfriend.help@gmail.com
