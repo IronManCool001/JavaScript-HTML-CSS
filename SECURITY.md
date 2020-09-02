@@ -9,7 +9,7 @@ The Bootstrap Expiriment folder contains bootstrap files and doesn't belong to m
 | 3.0.0     | CSS
 | 5.0.0     | HTML               |
 | N/A       | Js |
-| 12.0.0+   | Node.js                |
+| 10.0.0+   | Node.js                |
 | 4.5.0+    | Bootstrap |
 
 ## Reporting a Vulnerability
