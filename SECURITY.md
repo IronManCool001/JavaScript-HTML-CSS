@@ -14,3 +14,7 @@ The Bootstrap Expiriment folder contains bootstrap files and doesn't belong to m
 
 ## Reporting a Vulnerability
 Pls use the mentioned version as other versions may cause corruption or lead to errors
+
+Report Any Problem To Me at 
+
+## technicalfriend.help@gmail.com
