@@ -1,0 +1,20 @@
+@import url(button.css);
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UbuntuMono';
+    font-display: swap;
+    src: url(UbuntuMono-Regular.ttf);
+}
+
+#font1{
+    font-family: 'Poppins',sans-serif;
+}
+
+#font2{
+    font-family: 'UbuntuMono',monospace;
+}

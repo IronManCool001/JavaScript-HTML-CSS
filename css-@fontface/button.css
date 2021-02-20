@@ -1,0 +1,10 @@
+.btn {
+    padding: 8px;
+    color: #ffffff;
+    background: blue;
+    font-family: 'Poppins',sans-serif;
+}
+
+.btn-primary {
+    background: #2196f3;
+}
